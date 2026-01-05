@@ -1,0 +1,34 @@
+#Main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/Folder View.png");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; 
+}
+
+.Files{
+    height: 36px;
+    width: 70vw;
+    display: block;
+}
+
+#Selection{
+    position: absolute;
+    left: 329px;
+    top: 115px;
+}
+
+.Files:hover{
+    border: 1px solid blue;
+    background-color: lightblue;
+}

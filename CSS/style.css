@@ -1,0 +1,24 @@
+#Main{
+    background-image: url("Windows 10.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; 
+}
+
+.Folders{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.Folders:hover{
+    cursor: grab;
+}
